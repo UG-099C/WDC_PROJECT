@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Host_event_Nandish.css">
+    <script type="text/javascript" src="Host_event_Nandish.js"></script>
+    <title>Endeavour</title>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">Endeavour</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <form class="d-flex">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-success" type="submit">Search</button>
+                </form>
+                <ul class="nav-link navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="./index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./user registration.html">Events</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Calendar</a>
+                    </li>
+                </ul>
+                <a class="navbar-nav nav-link">Login</a>
+                <a class="navbar-nav nav-link">Signup</a>
+            </div>
+        </div>
+    </nav>
+<div class="container container-fluid">
+    <form class="col-6 mx-auto mt-2">
+        <h2>Event Information</h2>
+        <div class="mb-3">
+            <label for="exampleInputEmail1" class="form-label">Event Name</label>
+            <input type="text" class="form-control" id="eventName" placeholder="Try something catchy for users">
+        </div>
+        <div class="mb-3">
+            <label for="exampleInputEmail1" class="form-label">Organizer Name</label>
+            <input type="text" class="form-control" id="organizerName" placeholder="Name of the host">
+        </div>
+        <div class="mb-3">
+            <label for="exampleInputEmail1" class="form-label">City</label>
+            <select class="form-select" id="inputGroupSelect02">
+              <option selected>Choose...</option>
+              <option value="1">Adelaide</option>
+              <option value="2">Melbourne</option>
+              <option value="3">Perth</option>
+              <option value="4">Sydney</option>
+              <option value="5">Canberra</option>
+            </select>
+          </div>
+
+          <div class="mb-3">
+            <label for="exampleInputEmail1" class="form-label">Category</label>
+            <select class="form-select" id="inputGroupSelect02">
+              <option selected>Choose...</option>
+              <option value="1">Seminar</option>
+              <option value="2">Workshop</option>
+              <option value="3">Food Festival</option>
+              <option value="4">Tech Event</option>
+              <option value="5">Art Exhibition</option>
+            </select>
+          </div>
+          <div class="mb-3">
+            <label for="exampleInputPassword1" class="form-label">Event Logo</label>
+            <input type="file" class="form-control" id="exampleInputPassword1">
+        </div>
+
+        <div class="mb-3">
+            <label for="exampleInputPassword1" class="form-label">Event Date</label>
+            <input type="date" class="form-control" id="exampleInputPassword1">
+        </div>
+        <div class="mb-3">
+            <label for="exampleInputPassword1" class="form-label">Event Start Time</label>
+            <input type="time" class="form-control" id="exampleInputPassword1">
+        </div>
+        <div class="mb-3">
+            <label for="exampleInputPassword1" class="form-label">Event Description</label>
+            <textarea class="form-control" id="exampleInputPassword1"></textarea>
+        </div>
+        <button type="submit" class="btn btn-primary">Add Event</button>
+    </form>
+</div>
+<div class="container">
+    <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
+      <p class="col-md-4 mb-0 text-muted">© 2022 Endeavour</p>
+
+      <a href="/" class="col-md-4 d-flex align-items-center justify-content-center mb-3 mb-md-0 me-md-auto link-dark text-decoration-none">
+        <svg class="bi me-2" width="40" height="32"><use xlink:href="#bootstrap"></use></svg>
+      </a>
+
+      <ul class="nav col-md-4 justify-content-end">
+        <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">Home</a></li>
+        <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">Help</a></li>
+        <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">Terms</a></li>
+        <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">About</a></li>
+        <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">Contact</a></li>
+      </ul>
+    </footer>
+  </div>
+</body>
+
+</html>
